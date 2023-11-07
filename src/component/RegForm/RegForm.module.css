@@ -1,0 +1,43 @@
+.inputForm{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    border-radius: 10px;
+    border:1px solid black;
+    padding: 15px;
+    background: white;
+}
+
+.input{
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.startBtn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.startBtn > button {
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.startBtn > button:hover{
+    transition-duration: 300ms;
+    scale: 1.05;
+    color:white;
+    background: rgba(0,0,0,0.8);
+}

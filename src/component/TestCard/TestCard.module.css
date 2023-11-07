@@ -1,0 +1,45 @@
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    min-height: 300px;
+    width: 250px;
+    background: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.cardTitle {
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.cardLink {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 3px;
+    background: #fefefe;
+}
+
+.cardLink:hover{
+    transition-duration: 300ms;
+    scale: 1.05;
+    color:white;
+    background: rgba(0,0,0,0.8);
+}
+
+.cardImage {
+
+}
+
+.cardCount {
+
+}

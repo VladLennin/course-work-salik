@@ -1,0 +1,21 @@
+.container{
+    transition-duration: 400ms;
+    text-decoration: none;
+    color:black;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: grid;
+    border: 1px solid black;
+    padding: 10px;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.custom{
+    background: rgba(0,0,0,0.4);
+}
+
+.container:hover{
+    background: rgba(79, 43, 43, 0.8);
+    scale: 1.01;
+    box-shadow: rgba(0,0,0,0.5) 3px 3px 3px;
+}

@@ -1,0 +1,24 @@
+.container {
+
+}
+
+.questionContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.answersContainer {
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.questionText{
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.question {
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.answer{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nameContainer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nameInput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.valueName{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.foo{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.addBtnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.addBtn{
+    text-align: center;
+    font-size: 20px;
+}
