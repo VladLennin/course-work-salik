@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
 import {Answer, Question, Test} from "../../model/types";
-import $api from "../../http";
 import {RouterNames} from "../../router/RouterNames";
 import ContentLayout from "../../component/ContentLayout/ContentLayout";
 import {HashLoader} from "react-spinners";
 import css from "./CreateTestPage.module.css"
+import $api from "../../http";
 
 function getRandomNumber(min: number, max: number) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -13,7 +13,7 @@ function getRandomNumber(min: number, max: number) {
 
 const CreateTestPage = () => {
     const [test, setTest] = useState<Test>({
-        name:"",
+        name: "",
         image: `${getRandomNumber(1, 26)}.png`,
         questions: [] as Question[],
     } as Test)

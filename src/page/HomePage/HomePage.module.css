@@ -1,0 +1,15 @@
+.title {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.subTitle {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}

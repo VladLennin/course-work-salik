@@ -3,7 +3,7 @@ import css from "./Footer.module.css"
 const Footer = () => {
     return (
         <div className={css.container}>
-            Footer
+            Розроблено курсантом 205 навчальної групи - Салік Дмитро
         </div>
     );
 };
